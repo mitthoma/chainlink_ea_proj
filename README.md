@@ -1,3 +1,12 @@
+# Follow this link to my [BALANCE_PROJECT EXTERNAL ADAPTER](./packages/sources/balances_project)
+
+
+
+
+
+
+
+
 # Chainlink External Adapters (TypeScript)
 
 This repository contains the source code for Chainlink external adapters.
