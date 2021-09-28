@@ -2,6 +2,8 @@
 
 ## Testing the adapter's endpoints with curl commands (sum, maximum, minimum)
 
+I was able to test these and got all of the correct answers through the curl commands.
+
 ##### to retrieve sum of all account balances --> 
 
 curl -X POST -H "content-type:application/json" "http://localhost:8080/" --data '{ "id": 0, "data": { "method": "sum" } }'
