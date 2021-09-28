@@ -18,11 +18,11 @@ An example adapter description
 
 | Required? |   Name   |     Description     |              Options              | Defaults to |
 | :-------: | :------: | :-----------------: | :-------------------------------: | :---------: |
-|           | endpoint | The endpoint to use | [example](#My_adapter_1-Endpoint) |   example   |
+|      ✅     | method | The endpoint to use | sum, minimum, maximum |   example   |
 
 ---
 
-## My_adapter_1 Endpoint
+## balance_project Endpoint
 
 An example endpoint description
 
@@ -30,8 +30,8 @@ An example endpoint description
 
 | Required? |            Name            |               Description                |       Options       | Defaults to |
 | :-------: | :------------------------: | :--------------------------------------: | :-----------------: | :---------: |
-|    ✅     | `base`, `from`, or `coin`  |   The symbol of the currency to query    | `BTC`, `ETH`, `USD` |             |
-|    ✅     | `quote`, `to`, or `market` | The symbol of the currency to convert to | `BTC`, `ETH`, `USD` |             |
+|    ✅     | `method`  |   The type of method you are requesting from the data    | `sum`, `maximum`, `minimum` |             |
+
 
 ### Sample Input
 
@@ -39,8 +39,7 @@ An example endpoint description
 {
   "id": "1",
   "data": {
-    "base": "ETH",
-    "quote": "USD"
+    "method": "sum",
   }
 }
 ```
@@ -51,8 +50,7 @@ An example endpoint description
 {
   "jobRunID": "278c97ffadb54a5bbb93cfec5f7b5503",
   "data": {
-    "price": 77777.77,
-    "result": 77777.77
+    "result": 77777.77,
   },
   "statusCode": 200
 }
