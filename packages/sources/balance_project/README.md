@@ -1,10 +1,22 @@
 # Chainlink External Adapter for balance_project
 
-A template to be used as an example for new [External Adapters](https://github.com/smartcontractkit/external-adapters-js)
+## Testing the adapter's endpoints with curl commands (sum, maximum, minimum)
 
-(please fill out with corresponding information)
+##### to retrieve sum of all account balances --> 
 
-An example adapter description
+curl -X POST -H "content-type:application/json" "http://localhost:8080/" --data '{ "id": 0, "data": { "method": "sum" } }'
+
+##### to retrieve maximum account id and balance --> 
+
+curl -X POST -H "content-type:application/json" "http://localhost:8080/" --data '{ "id": 0, "data": { "method": "maximum" } }'
+
+##### to retrieve maximum account id and balance --> 
+
+curl -X POST -H "content-type:application/json" "http://localhost:8080/" --data '{ "id": 0, "data": { "method": "minimum" } }'
+
+
+
+
 
 ### Environment Variables
 
