@@ -96,6 +96,7 @@
     "@chainlink/marketstack-adapter": "*",
     "@chainlink/messari-adapter": "*",
     "@chainlink/metalsapi-adapter": "*",
+    "@chainlink/my_adapter_1-adapter": "*",
     "@chainlink/mycryptoapi-adapter": "*",
     "@chainlink/ncfx-adapter": "*",
     "@chainlink/nikkei-adapter": "*",
