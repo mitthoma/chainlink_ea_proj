@@ -1,4 +1,4 @@
-# Follow this link to my [BALANCE_PROJECT EXTERNAL ADAPTER](./packages/sources/balances_project)
+# Follow this link to my [BALANCE_PROJECT EXTERNAL ADAPTER](https://github.com/mitthoma/chainlink_ea_proj/tree/develop/packages/sources/balance_project)
 
 
 
